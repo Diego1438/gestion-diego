@@ -1,0 +1,353 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#parrafo3{
+    color: black;
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    font-size: 1.4rem;
+}
+
+
+a{
+    text-decoration: none;
+}
+ hr{
+    font-size: 5rem;
+    border-color: black ;
+    border: solid 2px black;
+ }
+
+button{
+    min-height: 2.5rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: white;
+    background-color: darkred;
+    border: solid 3px black;
+    box-shadow: 7px 7px 0px black; 
+}
+button:hover{
+    background-color: black;
+    box-shadow: 7px 7px 0px darkred; 
+    border: solid 3px white;
+}
+
+/* css heather-inicio*/
+
+header{
+    display: flex;
+    width: 100vw;
+    min-height: 70px;
+    background-color: darkred;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 70px;
+    height: 70px;
+    margin-right: 8px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding-right: 10px;
+    margin-right: 5px;
+}
+.logo a{
+    color: white;
+}
+nav a:hover{
+    color: black;
+}
+.logo .a1:hover{
+    color: black;
+}
+
+
+@media (max-width:700px) {
+    header{
+        flex-direction: column;
+    }
+    nav {
+        padding: 10px;
+    }
+    logo{
+        justify-content: center;
+    }
+    
+}
+
+/* css heather-final */
+
+
+/* aqui arranca el css de primera seccion*/
+
+#texto1{
+    text-align: center;
+    color: white;
+    margin: 20px;
+    font-size: 2.3rem;
+}
+#primera-section {
+    width: 100vw;
+    min-height: 80vh;
+   background: linear-gradient(rgba(5, 7,12,0.60),rgba(5, 7,12,0.60)), url(img/fondo.jpg);
+   background-size: cover;
+   display: flex;
+   align-items: center;
+}
+
+/* aqui termina css de primera seccion*/
+
+
+/* aqui arranca el css de segunda seccion*/
+#segunda-section{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#segunda-section p{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 20px;
+}
+#segunda-section h1{
+    color: white;
+}
+
+.m-titulo{
+    min-width: 100%;
+    min-height: 50px;
+    background-color: darkred;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+.contenedor1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+.contenedor1 h3{
+    color: white;
+}
+
+.materiales{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 12rem;
+    height: 17rem;
+    margin: 10px;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.materiales .parrafo{
+    background-color: darkred;
+    height: 25%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.materiales:hover .parrafo{
+    background-color: black;
+}
+.materiales img {
+   width: 100%;
+   height: 100%;
+   display: flex;  
+   object-fit: cover;
+   
+}
+
+
+/* aqui termina css de segunda seccion*/
+
+
+/* aqui arranca css de tercera seccion*/
+#tercera-section{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+.contenedor2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+
+#tercera-section p{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 20px;
+}
+#tercera-section h1{
+    color: white;
+}
+
+#tercera-section #p-proc{
+    color: white;
+}
+#tercera-section #parrafo3{
+    color: black;
+}
+.proc{
+    background-color:darkred;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 18rem;
+    min-height: 25rem;
+    margin: 10px;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.proc:hover{
+    background-color: black;
+}
+.proc img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.link2 {
+    color: black;
+}
+.proc:hover a{
+    color: darkred;
+}
+#p-proc{
+    color: black;
+}
+
+/* aqui termina css de tercera seccion*/
+
+/* aqui arranca el css de cuarta seccion*/
+#cuarta-section{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.result{
+    background-color:darkred;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 18rem;
+    max-height: 23.5rem;
+    margin: 20px;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.result img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.contenedor3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+}
+#cuarta-section .m-titulo{
+    margin-bottom: 40px;
+}
+#cuarta-section h1{
+    color: white;
+}
+.texto-final {
+    width: 18rem;
+    max-height: 25rem;
+}
+.texto-final h2{
+    color: white;
+    margin-right: 2rem;
+}
+
+@media (max-width:820px){
+    .contenedor3 {
+        flex-direction: column;
+    }
+
+    .texto-final{
+        margin-bottom: 1rem;
+        margin-left: 3rem;
+        text-align: center;
+    }
+   
+}
+/* aqui termina el css de cuarta seccion*/
+
+
+/* aqui arranca el css footer*/
+footer{
+    display: flex;
+    width: 100vw;
+    min-height: 40px;
+    background-color: darkred;
+    justify-content: space-between;
+    margin-top: 3rem;
+    padding-top: 5px;
+    padding: 4%;
+}
+.desarrollador{
+    margin-top: 0;
+    margin-right: 3rem;
+}
+.alumnos {
+    margin-top: 5px;
+
+}
+@media (max-width: 700px){
+    footer {
+        flex-direction: column;
+        padding: 3rem;
+    }
+    .alumnos {
+        margin-bottom: 1.5rem;
+    }
+}
+
+.texto-final h2{
+    color: black;
+}
+
+/* aqui termina css footer*/
+
